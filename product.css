@@ -1,0 +1,133 @@
+
+/* Navbar */
+
+.mains{
+    overflow: hidden;
+}
+nav ul a:hover{
+    color: white !important;
+}
+.nava{
+    /* height: 80px; */
+    width: 100px;
+}
+.imagepar{
+    height: 110px;
+    width: 80px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.offcap{
+    margin-top: -15px !important;
+}
+@media screen and (min-width:300px)and (max-width:767px){
+    .navaul{
+        display: block !important;
+    }
+    .hola{
+        margin-left: -30px!important;
+    }
+  }
+
+/* ********* products **************** */
+#product-detail{
+    background-color: #efefef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prolarge{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width:300px)and (max-width:750px){
+  .smallproim{
+      height: 50px;
+      width: 50px;
+  }  
+}
+
+@media screen and (min-width:751px){
+    .smallproim{
+        height: 150px;
+        width: 150px;
+    } 
+}
+
+
+.prolarge img{
+    height: 100%;
+    width: 100%;
+}
+.colorss{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+.falt{
+    font-size: 13px;
+}
+
+.lol a:hover{
+    color: green !important;
+}
+.falt:hover{
+    color: green !important;
+}
+.aftbag{
+    margin-right:100px !important;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.inpro{
+    overflow: hidden;
+}
+.inpro:hover img{
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+.prodac2{
+    /* height: 400px; */
+    height: 100%;
+}
+.pro2img{
+    overflow: hidden;
+}
+.pro2img:hover img{
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+.loadbutton:hover{
+    background-color: rgb(168, 162, 162) !important ;
+}
+.fa-heart:hover{
+    color: red;
+}
+.loadbutton{
+    margin-top: 100px;
+}
+
+
+
+/* **************Footer************* */
+.footin{
+    width: 100px !important;
+}
+@media screen  and (min-width:300px) and (max-width:1023px){
+    .foottt{
+        border: none;
+    }
+    .footbtn{
+        margin-left: 0px;
+    }
+}
+
+@media screen  and (min-width:768px) and (max-width:991px){
+    
+}

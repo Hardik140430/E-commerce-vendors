@@ -1,0 +1,240 @@
+
+/* Navbar */
+
+.mains{
+    overflow: hidden;
+}
+nav ul a:hover{
+    color: white !important;
+}
+.nava{
+    /* height: 80px; */
+    width: 100px;
+}
+.imagepar{
+    height: 110px;
+    width: 80px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.offcap{
+    margin-top: -15px !important;
+}
+@media screen and (min-width:300px)and (max-width:767px){
+    .navaul{
+        display: block !important;
+    }
+    .hola{
+        margin-left: -30px!important;
+    }
+  }
+
+
+/* hero */
+.bgimg{
+    height: 650px;
+}
+
+.bgoverlay{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 70px;
+    /* z-index: 1; */
+
+}
+
+.overbar{
+    z-index: 2;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+.bgbut{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 100%;
+    color: black;
+    z-index: 5;
+}
+.bgbut:hover{
+    color: black;
+}
+.bgbut1{
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    color: black;
+}
+.bgbut2{
+    position: absolute;
+    top: 500px;
+    right: 130px;
+}
+@media screen  and (min-width:300px) and (max-width:480px){
+    .bgbut1{
+        left: 0px;
+        
+    }
+    .bgbut2{
+        right: 0px;
+    }
+    .bgoverlay{
+        opacity: 0.4;
+    }
+    
+    .overbar{
+        left: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:1030px) {
+    .bgbut1{
+        left: 100px;
+        
+    }
+}
+@media screen and (min-width:300px) and (max-width:1023px){
+    .bgoverlay{
+        visibility: hidden;
+    }
+}
+
+/* *********************Feature Product****************** */
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.inpro{
+    overflow: hidden;
+}
+.inpro:hover img{
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+.prodac2{
+    height: 100%;
+}
+.pro2img{
+    overflow: hidden;
+}
+.pro2img:hover img{
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+.loadbutton:hover{
+    background-color: rgb(168, 162, 162) !important ;
+}
+.fa-heart:hover{
+    color: red;
+}
+.loadbutton{
+    margin-top: 100px;
+}
+@media screen and (min-width:300px) and (max-width:480px) {
+    .loadbutton{
+        margin-top: -50px;
+    }
+}
+
+/************* Collection************* */
+#collections{
+    background-color:  #3B416B !important;
+    margin-top: 50px;
+}
+.collimage{
+    height: 500px;
+    overflow: hidden;
+    
+    
+}
+.collimage img{
+    transform: scale(1.2,1.9);
+}
+.collimage:hover img{
+    transform: scale(1,1.7);
+    transition-duration: 1s;
+}
+.collsmallimg{
+    height: 240px;
+    overflow: hidden;position: relative;
+}
+.collsmallimg img{
+    transform: scale(1.2,1.9);
+}
+.collsmallimg:hover img{
+    transform: scale(1,1.7);
+    transition-duration: 1s;
+}
+.dressbtn{
+    width: 90px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    z-index: 2;
+}
+.collec{
+    position: relative;
+}
+
+.dressbtn:hover{
+    width: 120px;
+}
+
+/* **************BLOGS**************** */
+.bloimg{
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.bloimg img{
+    height: 100%;
+    width: 100%;
+    transform: scale(1,1.2);
+    
+}
+.blodate{
+    font-size: 12px;
+}
+.blover{
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+    z-index: 3;
+    visibility: hidden;
+}
+.bloimg:hover .blover{
+    visibility: visible;
+}
+.flowimg{
+    height: 500px;
+    width: 550px !important;
+
+}
+
+
+/* **************Footer************* */
+.footin{
+    width: 100px !important;
+}
+@media screen  and (min-width:300px) and (max-width:1023px){
+    .foottt{
+        border: none;
+    }
+    .footbtn{
+        margin-left: 0px;
+    }
+}
